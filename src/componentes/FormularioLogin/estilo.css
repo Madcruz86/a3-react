@@ -1,0 +1,69 @@
+.area-form {
+    width: 25em;
+    height: fit-content;
+    background: rgba(70, 167, 222, 0.6);
+    border-radius: 20px;
+    margin-right: 5em;
+    padding: 2em;
+    color: #fff;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.area-form h2 {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+form input{
+    display: block;
+    width: 100%;
+    background: rgba(10, 66, 62, 0.7);
+    border-radius: 50px;
+    height: 2.5em;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    margin-top: 5px;
+}
+
+form label {
+    padding: 5px;
+    position: relative;
+    margin-left: 1em;
+    text-transform: uppercase;
+    
+}
+
+form input[type="submit"] {
+    width: 50%;
+    height: 2.5em;
+    background: rgba(10, 255, 240, 0.7);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5em;
+    margin: 1em auto;
+    border-color: rgba(10, 255, 240, 0.7);
+    cursor: pointer;
+}
+
+form input[type="checkbox"] {
+   
+    width: 50px;
+    height: 20px;
+    background: rgba(10, 255, 240, 0.7);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.2em;
+    border: 0ch;
+    margin-top: -5px;
+    margin-left: -20px;
+}
+
+form p {
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,0 +1,23 @@
+.area-logo{
+    width: fit-content;
+    display: flex;
+    margin: 1em;
+    margin-top: -30px;
+}
+
+.area-logo img {
+    height: 3em;
+}
+
+.area-logo a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.area-logo p {
+    vertical-align: top;
+    font-size: 3em;
+    margin: 0;
+}

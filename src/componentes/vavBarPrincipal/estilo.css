@@ -1,0 +1,26 @@
+.navBar ul{
+    text-align: center;
+    margin-top: -100px;
+	list-style: none;
+	float: right;
+}
+
+.navBar ul li {
+    float: right;
+    padding: 2px;
+    margin-right: 100px;
+    font-size: 1.3em;
+}
+
+.navBar ul a {
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav ul a:hover {
+    background: rgba(18, 204, 210, 0.5);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+}

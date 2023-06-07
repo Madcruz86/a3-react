@@ -1,0 +1,33 @@
+#barra-pesquisa {
+    
+    text-align: center;
+
+}
+
+#barra-pesquisa input {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    width: 525px;
+    height: 50px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #050725;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.2em;
+    
+}
+
+#box_icone_busca{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    position: relative;
+    left: -39px;
+    top: 1px;
+}
+#icone_busca {
+    color: #000;
+    cursor: pointer;
+}
