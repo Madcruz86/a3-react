@@ -1,0 +1,34 @@
+#caixa-adicionar {
+    background: gray; 
+    font-size: 2.2em; 
+    text-align: center;
+    border: 3px solid #fff;
+    float: left;
+    
+}
+
+
+
+#caixa-adicionar a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.categoria h1{
+    color: #FFF;
+    margin-left: 1em;
+}
+.categoria a{
+    color: #FFF;
+    text-decoration: none;
+    vertical-align: baseline;
+    margin-right: 1em;
+}
+
+.categoria a:hover{
+    background-color: #FFF;
+    color: #326589;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
