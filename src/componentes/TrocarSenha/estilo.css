@@ -1,0 +1,63 @@
+.dados-usuario {
+    margin: 3em;
+    color: #FFF;
+    display: inline-block;
+}
+
+.dado {
+    margin: 1em auto;
+}
+
+.dado label {
+    width: 10em;
+    display: inline-block;
+    font-size: 1em;
+}
+
+.dado input {
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    color: #FFF;
+}
+
+form input, form select{
+    display: block;
+    width: 20em;
+    background: rgba(10, 66, 62, 0.7);
+    border-radius: 50px;
+    height: 2.5em;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    margin-top: 5px;
+}
+
+
+form div {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+form {
+    margin-top: 1em;
+}
+form label {
+    margin-left: 1em;
+}
+#botao-confirmar {
+    display: inline-block;
+}
+
+form input[type="submit"] {
+    width: 10em;
+    height: 2.5em;
+    background: rgba(10, 255, 240, 0.7);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5em;
+    margin: 1em auto;
+    border-color: rgba(10, 255, 240, 0.7);
+    cursor: pointer;
+}

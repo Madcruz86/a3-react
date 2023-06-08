@@ -1,9 +1,13 @@
 #caixa-adicionar {
     background: gray; 
-    font-size: 2.2em; 
+    font-size: 2.0em; 
     text-align: center;
     border: 3px solid #fff;
     float: left;
+    width: 150px;
+    height: 250px;
+    margin: 20px;
+    border: 1px solid gray;
     
 }
 
@@ -27,8 +31,9 @@
 }
 
 .categoria a:hover{
-    background-color: #FFF;
-    color: #326589;
-    border-radius: 5px;
-    margin-bottom: 8px;
+    background: rgba(18, 204, 210, 0.5);
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 2px;
+    border-radius: 10px;
 }

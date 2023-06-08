@@ -1,23 +1,22 @@
+import './Streaming.css';
 import HeaderPrincipal from "./componentes/HeaderPrincipal"
 import NavBar from "./componentes/vavBarPrincipal"
 import Footer from "./componentes/Footer"
-import CategoriasPrincipal from "./componentes/CategoriasPrincipal"
+import ConteudoStreaming from './ConteudoStreaming';
 import BarraPesquisa from "./componentes/BarraPesquisa"
-import MinhasSeries from "./componentes/MinhasSeriesPrincipal"
 
 
 
-function Principal() {
+function Streaming(){
     return(
         <>
-            <HeaderPrincipal />
+            <HeaderPrincipal/>
             <NavBar />
             <BarraPesquisa />
-            <MinhasSeries />
-            <CategoriasPrincipal/>
+            <ConteudoStreaming />
             <Footer />
         </>
     )
 }
 
-export default Principal
+export default Streaming

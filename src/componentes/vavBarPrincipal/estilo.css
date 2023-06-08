@@ -8,7 +8,7 @@
 .navBar ul li {
     float: right;
     padding: 2px;
-    margin-right: 100px;
+    margin-right: 50px;
     font-size: 1.3em;
 }
 
@@ -18,9 +18,9 @@
     text-decoration: none;
 }
 
-.nav ul a:hover {
+.navBar ul  a:hover {
     background: rgba(18, 204, 210, 0.5);
     text-decoration: none;
-    padding: 20px;
+    padding: 5px;
     border-radius: 10px;
 }

@@ -1,0 +1,22 @@
+.dados-usuario {
+    margin: 3em;
+    color: #FFF;
+    display: inline-block;
+}
+
+.dado {
+    margin: 1em auto;
+}
+
+.dado label {
+    width: 10em;
+    display: inline-block;
+    font-size: 1em;
+}
+
+.dado input {
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    color: #FFF;
+}

@@ -1,15 +1,12 @@
 #barra-pesquisa {
-    
     text-align: center;
-
+    margin: 1em auto 2em;
 }
 
 #barra-pesquisa input {
     box-sizing: border-box;
     position: relative;
     margin: 0 auto;
-    width: 525px;
-    height: 50px;
     padding: 10px;
     background: rgba(255, 255, 255, 0.5);
     border: 1px solid #050725;

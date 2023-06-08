@@ -7,6 +7,9 @@ import Inicio from './Inicio'
 import Login from './login';
 import Cadastro from './Cadastro';
 import Principal from './Principal';
+import Perfil from './Perfil';
+import MinhasSeries from './MinhasSeries';
+import Streaming from './Streaming';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +28,9 @@ root.render(
         <Route path='/login' element={<Login/>}/>
         <Route path='/cadastro' element={<Cadastro/>}/>
         <Route path='/principal' element={<Principal/>}/>
+        <Route path='/perfil' element={<Perfil/>}/>
+        <Route path='/minhas-series' element={<MinhasSeries/>}/>
+        <Route path='/streaming' element={<Streaming/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
